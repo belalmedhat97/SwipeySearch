@@ -1,0 +1,6 @@
+framework module SwipeySearch {
+  umbrella header "SwipeySearch-umbrella.h"
+
+  export *
+  module * { export * }
+}

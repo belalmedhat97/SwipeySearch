@@ -1,0 +1,16 @@
+PODS:
+  - SwipeySearch (0.1.0)
+
+DEPENDENCIES:
+  - SwipeySearch (from `../`)
+
+EXTERNAL SOURCES:
+  SwipeySearch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwipeySearch: 8d315204f9e844a83641f2b23704aee39536b2c4
+
+PODFILE CHECKSUM: f2ef463f64c8cd681577581860ed85f4277c4a99
+
+COCOAPODS: 1.9.3
