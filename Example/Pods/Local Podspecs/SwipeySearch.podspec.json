@@ -1,0 +1,22 @@
+{
+  "name": "SwipeySearch",
+  "version": "0.1.0",
+  "summary": "A short description of SwipeySearch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/belalmedhat97/SwipeySearch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "belalmedhat97": "belal1997medhat@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/belalmedhat97/SwipeySearch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SwipeySearch/Classes/**/*"
+}
