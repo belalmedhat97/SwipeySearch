@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SwipeySearch_Example' do
+  pod 'SwipeySearch', :path => '../'
+
+  target 'SwipeySearch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
