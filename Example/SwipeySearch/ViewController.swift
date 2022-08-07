@@ -13,12 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        searchBar.searchButton.backgroundColor = .red
+//        searchBar.searchButton.defineShape(type: .roundedSquare(corner: 10))
+        searchBar.buttonShape(type: .roundedSquare(corner: 5))
+
     }
     @IBOutlet weak var searchBar: SwipeySearchClass!
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        searchBar.searchButton.backgroundColor = .red
         // Dispose of any resources that can be recreated.
     }
 
