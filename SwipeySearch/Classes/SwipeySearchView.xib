@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwipeySearchClass" customModule="SwipeySearch" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="gao-OL-VOc" id="0qY-0g-eDK"/>
+                <outlet property="searchButton" destination="925-dd-SdT" id="BJp-eN-zYb"/>
+                <outlet property="searchView" destination="29F-er-ojq" id="diE-4f-uL5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="gao-OL-VOc">
+            <rect key="frame" x="0.0" y="0.0" width="853" height="218"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="29F-er-ojq">
+                    <rect key="frame" x="5" y="89" width="843" height="50"/>
+                    <subviews>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="925-dd-SdT">
+                            <rect key="frame" x="798" y="5" width="40" height="40"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="b1m-gh-ojs"/>
+                                <constraint firstAttribute="height" constant="40" id="g3u-dF-IrW"/>
+                            </constraints>
+                            <state key="normal" image="magnifyingglass" catalog="system"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="925-dd-SdT" secondAttribute="trailing" constant="5" id="6bj-we-rkr"/>
+                        <constraint firstItem="925-dd-SdT" firstAttribute="centerY" secondItem="29F-er-ojq" secondAttribute="centerY" id="ZSp-C7-bjS"/>
+                        <constraint firstAttribute="height" constant="50" id="acp-Sz-9TZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="J9u-rU-7Ev"/>
+            <color key="backgroundColor" systemColor="tintColor"/>
+            <constraints>
+                <constraint firstItem="29F-er-ojq" firstAttribute="leading" secondItem="J9u-rU-7Ev" secondAttribute="leading" constant="5" id="0Jw-MO-hNI"/>
+                <constraint firstItem="J9u-rU-7Ev" firstAttribute="trailing" secondItem="29F-er-ojq" secondAttribute="trailing" constant="5" id="9e2-fE-lVc"/>
+                <constraint firstItem="29F-er-ojq" firstAttribute="centerY" secondItem="J9u-rU-7Ev" secondAttribute="centerY" id="rac-fL-uQV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="392.02898550724643" y="-145.3125"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
