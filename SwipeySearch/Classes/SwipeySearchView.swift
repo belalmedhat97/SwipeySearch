@@ -67,7 +67,7 @@ public protocol SwipeySearchProtocol{
     //
     
     // define the searchField and it's constraints
-    private var SearchField:UITextField = UITextField()
+    var SearchField:UITextField = UITextField()
     private var leftTextOpen:NSLayoutConstraint!
     private var RightTextOpen:NSLayoutConstraint!
     private var WidthTextClose:NSLayoutConstraint!

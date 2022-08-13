@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+"SwipeySearch is cocoapod that helps to create a SearchView with Search Field and Search button to trigger the search with awesome opening animation when press search button and closing when swipe to the right of screen."
+DESC
 
   s.homepage         = 'https://github.com/belalmedhat97/SwipeySearch'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
