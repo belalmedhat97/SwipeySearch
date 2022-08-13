@@ -128,7 +128,7 @@ public protocol SwipeySearchProtocol{
     
     // MARK: - search button color + icon color
     
-    @IBInspectable public  var buttonColor: UIColor? {
+    @IBInspectable public  var buttonColor: UIColor? = .lightGray{
         didSet {
             searchButton.backgroundColor = buttonColor
         }
@@ -158,7 +158,7 @@ public protocol SwipeySearchProtocol{
             }
         }
     }
-    @IBInspectable public  var buttonCorner: CGFloat = 0{
+    @IBInspectable public  var buttonCorner: CGFloat = 5 {
         didSet {
             if !isBtnAndFieldCircle {
                 searchButtonShape(type: .roundedSquare(corner: buttonCorner))
@@ -233,7 +233,7 @@ extension SwipeySearchView {
     
     private func addSearchBar(){
         SearchField = UITextField(frame: CGRect(x: searchButton.frame.minX, y: searchButton.frame.minY, width: searchButton.frame.width, height: searchButton.frame.height))
-        SearchField.layer.cornerRadius = searchButton.layer.cornerRadius
+        SearchField.layer.cornerRadius = buttonCorner
         SearchField.layer.masksToBounds = false
         SearchField.backgroundColor = searchFieldBgColor
         // shadow for searchfield
@@ -264,6 +264,7 @@ extension SwipeySearchView {
         searchButton.layer.shadowRadius = shadowRadius
         searchButton.layer.shadowOpacity = shadowOpacity
         searchButton.layer.shadowColor = shadowColor?.cgColor
+        searchButton.layer.cornerRadius = buttonCorner
     }
     private func openSearch(){
         if searchButton.tag == 0 {
