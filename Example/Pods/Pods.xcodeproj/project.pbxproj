@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		01984F3F50690F5E1731065B0C59177A /* Pods-SwipeySearch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A72EFB96673FBA0DF9B90A33396416A /* Pods-SwipeySearch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		395750773D1730CB02801045657529CC /* SwipeySearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F51669CE0568D431BEB51034A5797E4B /* SwipeySearch-dummy.m */; };
+		1E9F90E2B0A0C3440C8F9339BDC188BB /* SwipeySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B18566D9E6B0ABB1BB3265E9FB363D /* SwipeySearchView.swift */; };
+		358C75CDBEBE09D515CB764473C7AFC3 /* SwipeySearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D43B69B8400F1F2C8F04D0FBF199FB /* SwipeySearch-dummy.m */; };
+		44095F0286F6CDE6CFF4623BB7371DF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		509F83521927D21D8826796F7D000DF2 /* Pods-SwipeySearch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C54BDCE9CAE5E92E77A6B68E5B3E284 /* Pods-SwipeySearch_Example-dummy.m */; };
-		57106305289F38E1007D53D9 /* SwipeySearchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57106303289F38E1007D53D9 /* SwipeySearchClass.swift */; };
-		57106306289F38E1007D53D9 /* SwipeySearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57106304289F38E1007D53D9 /* SwipeySearchView.xib */; };
+		524C54E26BCC5B8D6F195E25FF0EC976 /* SwipeySearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5028ECD25AE98D8017473F34DDF3034 /* SwipeySearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82C44E35475EDB47C250613CE54743E3 /* Pods-SwipeySearch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D1E434447BDCAE14E3A42FFF3B16C /* Pods-SwipeySearch_Tests-dummy.m */; };
 		9F7420623FAE6BABC6F3E311951808BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B04C5980CC61F91D28650D7D536FC45F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BD42D6FEDE7527BE4F3DE2B4B35C86FF /* SwipeySearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7C0963D14EDB8AED0F81AC89659373 /* SwipeySearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B50F3BECA289D096588C4F38DDD80EF8 /* SwipeySearchView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 143A9607BF894653D18FB5862FC10283 /* SwipeySearchView.xib */; };
 		CF9E18D6838AE527C33A0581C94B34CE /* Pods-SwipeySearch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA752B37C37BC2F124147F43DE4EFEE8 /* Pods-SwipeySearch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D79BA402AE7EEF492EAAF823FA0E461E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		62E1CA7CA79EA07C1E908E28C258E996 /* PBXContainerItemProxy */ = {
+		4E1E2B136B25BC6B770FCFA5ED901183 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C47839E3C2E4B9C4B5E00DE78CDB5E0C;
 			remoteInfo = SwipeySearch;
 		};
-		B1E48272809E1FEEA50E0DE1C58B92B2 /* PBXContainerItemProxy */ = {
+		C3CD4DC441EE71B9BCA5B9D461E941ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -39,47 +39,47 @@
 
 /* Begin PBXFileReference section */
 		00BEFAC3B42E7BC470464698C1911632 /* Pods-SwipeySearch_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwipeySearch_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		120E77398C60930FF0EE2820A9696EFA /* SwipeySearch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwipeySearch.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		21F929C1BD2EC1685D2A470CF336519E /* SwipeySearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeySearch.debug.xcconfig; sourceTree = "<group>"; };
-		2760B42E4F361F59548BFC88D8467578 /* SwipeySearch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeySearch-prefix.pch"; sourceTree = "<group>"; };
+		01E615968B9D7074B2A1EC6125B3D0D1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0216C3DE4CFCC9CC868D6E9706405610 /* SwipeySearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeySearch.debug.xcconfig; sourceTree = "<group>"; };
+		143A9607BF894653D18FB5862FC10283 /* SwipeySearchView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SwipeySearchView.xib; path = SwipeySearch/Classes/SwipeySearchView.xib; sourceTree = "<group>"; };
+		1468C8F7CA5125C962DDA4272A5C1C10 /* SwipeySearch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeySearch-prefix.pch"; sourceTree = "<group>"; };
 		2C54BDCE9CAE5E92E77A6B68E5B3E284 /* Pods-SwipeySearch_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwipeySearch_Example-dummy.m"; sourceTree = "<group>"; };
-		2F7C0963D14EDB8AED0F81AC89659373 /* SwipeySearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeySearch-umbrella.h"; sourceTree = "<group>"; };
 		40C3DA1AE9C4024F612A6EEA7515D518 /* Pods-SwipeySearch_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeySearch_Tests-Info.plist"; sourceTree = "<group>"; };
+		4FB4DA71EAA8AC703B133D6EA3E02119 /* SwipeySearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwipeySearch-Info.plist"; sourceTree = "<group>"; };
 		52DEE7CCACA0B78EA14EE675E5F00C4C /* Pods-SwipeySearch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeySearch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5362F2B3E3BEFE9FFD2A1C5A54AE171C /* Pods-SwipeySearch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeySearch_Example.release.xcconfig"; sourceTree = "<group>"; };
+		54FA6A6129BF60E78123E4A19BDB5A05 /* SwipeySearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeySearch.release.xcconfig; sourceTree = "<group>"; };
 		55B51D434B43D4003F7D2F9A2AE07353 /* Pods-SwipeySearch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwipeySearch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		57106303289F38E1007D53D9 /* SwipeySearchClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeySearchClass.swift; path = SwipeySearch/Classes/SwipeySearchClass.swift; sourceTree = "<group>"; };
-		57106304289F38E1007D53D9 /* SwipeySearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SwipeySearchView.xib; path = SwipeySearch/Classes/SwipeySearchView.xib; sourceTree = "<group>"; };
+		55DEA683B000B989755071AEAD17CBF1 /* SwipeySearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeySearch.modulemap; sourceTree = "<group>"; };
 		5B5D1E434447BDCAE14E3A42FFF3B16C /* Pods-SwipeySearch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwipeySearch_Tests-dummy.m"; sourceTree = "<group>"; };
+		632D0E6F9B52605C9C837EE86191F335 /* SwipeySearch.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwipeySearch.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6B16F33F45DBA07773872E4BF2BB5EA5 /* Pods-SwipeySearch_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwipeySearch_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8931FD29AE6591D93918D05A73949957 /* Pods_SwipeySearch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeySearch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8A13206E5CA0DB3D8A33E1BF33D642 /* Pods-SwipeySearch_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeySearch_Example-Info.plist"; sourceTree = "<group>"; };
 		8D7549119A6B965A1A4AC4F1D1254849 /* Pods-SwipeySearch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeySearch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F9B8832AD9C50BCA8E84FB11FA99277 /* Pods-SwipeySearch_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeySearch_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		942F6AAB20D068531AC1FF12422BA022 /* SwipeySearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeySearch.release.xcconfig; sourceTree = "<group>"; };
-		993971A1485215903314B34F2BB25A50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9A72EFB96673FBA0DF9B90A33396416A /* Pods-SwipeySearch_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwipeySearch_Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A22530C27804BAA52E5CC01C08939A41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A2C30ABC29F92139C65070F9B7A9E0C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AA752B37C37BC2F124147F43DE4EFEE8 /* Pods-SwipeySearch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwipeySearch_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B5028ECD25AE98D8017473F34DDF3034 /* SwipeySearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeySearch-umbrella.h"; sourceTree = "<group>"; };
 		B733F483FB5ACEC35C0AE6BA0293E22C /* Pods-SwipeySearch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwipeySearch_Tests.modulemap"; sourceTree = "<group>"; };
 		BBF405727D964F11ADD841C85F418CD6 /* Pods_SwipeySearch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeySearch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F9A83DBB69314183E250BF7E0CFF87 /* Pods-SwipeySearch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeySearch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C1DFAED14DD360B6F86F849649684726 /* Pods-SwipeySearch_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwipeySearch_Example.modulemap"; sourceTree = "<group>"; };
+		C3B18566D9E6B0ABB1BB3265E9FB363D /* SwipeySearchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeySearchView.swift; path = SwipeySearch/Classes/SwipeySearchView.swift; sourceTree = "<group>"; };
 		C5FCA06121F339F1B18BCC9D41B4046B /* Pods-SwipeySearch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeySearch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6D43B69B8400F1F2C8F04D0FBF199FB /* SwipeySearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeySearch-dummy.m"; sourceTree = "<group>"; };
 		D2FD90AA18915ABB7982F8D7DC98F0B7 /* SwipeySearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeySearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D68E4268C43CBA7F71578643F167838D /* SwipeySearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeySearch.modulemap; sourceTree = "<group>"; };
-		E9B802907DDBC19D03A13CC8D5B97AC7 /* SwipeySearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwipeySearch-Info.plist"; sourceTree = "<group>"; };
-		F51669CE0568D431BEB51034A5797E4B /* SwipeySearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeySearch-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07EADFC0E1E681200EA41DFE94BB005A /* Frameworks */ = {
+		18D89E98441717C53EEA739FA3C059E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D79BA402AE7EEF492EAAF823FA0E461E /* Foundation.framework in Frameworks */,
+				44095F0286F6CDE6CFF4623BB7371DF1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +102,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A9C277C69450B206040109C5AE2DC3F /* SwipeySearch */ = {
+			isa = PBXGroup;
+			children = (
+				C3B18566D9E6B0ABB1BB3265E9FB363D /* SwipeySearchView.swift */,
+				143A9607BF894653D18FB5862FC10283 /* SwipeySearchView.xib */,
+				6F26B5F6502DD9EE98D3F7FA8A0453D7 /* Pod */,
+				FC4CF6D41413639478CC71E042CFAA18 /* Support Files */,
+			);
+			name = SwipeySearch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2E823BB2616DE3D39C1F76EDFE0AB0D8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C277C69450B206040109C5AE2DC3F /* SwipeySearch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		379F52391BBEF785D623E04EF04F9325 /* Pods-SwipeySearch_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,35 +172,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7F7BBAD0BC81F82574E777F8B0F29B4F /* Support Files */ = {
+		6F26B5F6502DD9EE98D3F7FA8A0453D7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D68E4268C43CBA7F71578643F167838D /* SwipeySearch.modulemap */,
-				F51669CE0568D431BEB51034A5797E4B /* SwipeySearch-dummy.m */,
-				E9B802907DDBC19D03A13CC8D5B97AC7 /* SwipeySearch-Info.plist */,
-				2760B42E4F361F59548BFC88D8467578 /* SwipeySearch-prefix.pch */,
-				2F7C0963D14EDB8AED0F81AC89659373 /* SwipeySearch-umbrella.h */,
-				21F929C1BD2EC1685D2A470CF336519E /* SwipeySearch.debug.xcconfig */,
-				942F6AAB20D068531AC1FF12422BA022 /* SwipeySearch.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwipeySearch";
-			sourceTree = "<group>";
-		};
-		8F05792E11CA47BF3F977BCAEB580193 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CDD4D180E7FD980DA694EF73FCF00F14 /* SwipeySearch */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C1130907EFFD9FF416BA0FCACC722F94 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				993971A1485215903314B34F2BB25A50 /* LICENSE */,
-				A22530C27804BAA52E5CC01C08939A41 /* README.md */,
-				120E77398C60930FF0EE2820A9696EFA /* SwipeySearch.podspec */,
+				01E615968B9D7074B2A1EC6125B3D0D1 /* LICENSE */,
+				A2C30ABC29F92139C65070F9B7A9E0C5 /* README.md */,
+				632D0E6F9B52605C9C837EE86191F335 /* SwipeySearch.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -195,23 +192,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDD4D180E7FD980DA694EF73FCF00F14 /* SwipeySearch */ = {
-			isa = PBXGroup;
-			children = (
-				57106303289F38E1007D53D9 /* SwipeySearchClass.swift */,
-				57106304289F38E1007D53D9 /* SwipeySearchView.xib */,
-				C1130907EFFD9FF416BA0FCACC722F94 /* Pod */,
-				7F7BBAD0BC81F82574E777F8B0F29B4F /* Support Files */,
-			);
-			name = SwipeySearch;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8F05792E11CA47BF3F977BCAEB580193 /* Development Pods */,
+				2E823BB2616DE3D39C1F76EDFE0AB0D8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C99418238F861407AEE5A3FF61FA81BB /* Products */,
 				3FD32C3E17137522850B1A0ED1F569F7 /* Targets Support Files */,
@@ -226,6 +211,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FC4CF6D41413639478CC71E042CFAA18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55DEA683B000B989755071AEAD17CBF1 /* SwipeySearch.modulemap */,
+				C6D43B69B8400F1F2C8F04D0FBF199FB /* SwipeySearch-dummy.m */,
+				4FB4DA71EAA8AC703B133D6EA3E02119 /* SwipeySearch-Info.plist */,
+				1468C8F7CA5125C962DDA4272A5C1C10 /* SwipeySearch-prefix.pch */,
+				B5028ECD25AE98D8017473F34DDF3034 /* SwipeySearch-umbrella.h */,
+				0216C3DE4CFCC9CC868D6E9706405610 /* SwipeySearch.debug.xcconfig */,
+				54FA6A6129BF60E78123E4A19BDB5A05 /* SwipeySearch.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwipeySearch";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -237,19 +237,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1777F64921BA89654988B1714F0C3C16 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD42D6FEDE7527BE4F3DE2B4B35C86FF /* SwipeySearch-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4E7161CF7169CC5D1D0059E8CFF8E319 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				01984F3F50690F5E1731065B0C59177A /* Pods-SwipeySearch_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7768CEF69276E058930A3DEABA7F54D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524C54E26BCC5B8D6F195E25FF0EC976 /* SwipeySearch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EC01CDCC3A098C009A9664BF3003A37C /* PBXTargetDependency */,
+				D63B512C7B20893261D6144B14AEACEF /* PBXTargetDependency */,
 			);
 			name = "Pods-SwipeySearch_Tests";
 			productName = Pods_SwipeySearch_Tests;
@@ -287,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4240A5172CFDB3282A1DF56FB5DAE821 /* PBXTargetDependency */,
+				E00541F9AFA69181A78C9B4DCB88BE51 /* PBXTargetDependency */,
 			);
 			name = "Pods-SwipeySearch_Example";
 			productName = Pods_SwipeySearch_Example;
@@ -296,12 +296,12 @@
 		};
 		C47839E3C2E4B9C4B5E00DE78CDB5E0C /* SwipeySearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58098D5EE02F94A7247D2CEE7F7318D6 /* Build configuration list for PBXNativeTarget "SwipeySearch" */;
+			buildConfigurationList = 8DF77F1F8141B0E0964897EC72D5DADA /* Build configuration list for PBXNativeTarget "SwipeySearch" */;
 			buildPhases = (
-				1777F64921BA89654988B1714F0C3C16 /* Headers */,
-				9D2738536CDCD562E70808D9CCAA46F3 /* Sources */,
-				07EADFC0E1E681200EA41DFE94BB005A /* Frameworks */,
-				77271D15EC34EA679CD92114322CCECC /* Resources */,
+				7768CEF69276E058930A3DEABA7F54D2 /* Headers */,
+				4DAF863FA0E1FB41125620C9ABCA010B /* Sources */,
+				18D89E98441717C53EEA739FA3C059E7 /* Frameworks */,
+				79948D184E0466C3F3099400E9CC4911 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -320,11 +320,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1340;
-				TargetAttributes = {
-					C47839E3C2E4B9C4B5E00DE78CDB5E0C = {
-						LastSwiftMigration = 1340;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -347,11 +342,10 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		77271D15EC34EA679CD92114322CCECC /* Resources */ = {
+		79948D184E0466C3F3099400E9CC4911 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57106306289F38E1007D53D9 /* SwipeySearchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +366,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4DAF863FA0E1FB41125620C9ABCA010B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358C75CDBEBE09D515CB764473C7AFC3 /* SwipeySearch-dummy.m in Sources */,
+				1E9F90E2B0A0C3440C8F9339BDC188BB /* SwipeySearchView.swift in Sources */,
+				B50F3BECA289D096588C4F38DDD80EF8 /* SwipeySearchView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E032B0D1E4A204DF0E71229FB68BF0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,65 +392,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D2738536CDCD562E70808D9CCAA46F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				395750773D1730CB02801045657529CC /* SwipeySearch-dummy.m in Sources */,
-				57106305289F38E1007D53D9 /* SwipeySearchClass.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4240A5172CFDB3282A1DF56FB5DAE821 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwipeySearch;
-			target = C47839E3C2E4B9C4B5E00DE78CDB5E0C /* SwipeySearch */;
-			targetProxy = 62E1CA7CA79EA07C1E908E28C258E996 /* PBXContainerItemProxy */;
-		};
-		EC01CDCC3A098C009A9664BF3003A37C /* PBXTargetDependency */ = {
+		D63B512C7B20893261D6144B14AEACEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SwipeySearch_Example";
 			target = 77D77AB800ED32DED4E2573154726F5C /* Pods-SwipeySearch_Example */;
-			targetProxy = B1E48272809E1FEEA50E0DE1C58B92B2 /* PBXContainerItemProxy */;
+			targetProxy = C3CD4DC441EE71B9BCA5B9D461E941ED /* PBXContainerItemProxy */;
+		};
+		E00541F9AFA69181A78C9B4DCB88BE51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeySearch;
+			target = C47839E3C2E4B9C4B5E00DE78CDB5E0C /* SwipeySearch */;
+			targetProxy = 4E1E2B136B25BC6B770FCFA5ED901183 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2A9EA671609183E023A90C739975D54E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 942F6AAB20D068531AC1FF12422BA022 /* SwipeySearch.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeySearch/SwipeySearch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeySearch/SwipeySearch-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwipeySearch/SwipeySearch.modulemap";
-				PRODUCT_MODULE_NAME = SwipeySearch;
-				PRODUCT_NAME = SwipeySearch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		38F71DA384C6A5B8236912E0A04CEBAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D7549119A6B965A1A4AC4F1D1254849 /* Pods-SwipeySearch_Tests.debug.xcconfig */;
@@ -507,6 +470,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61F1015E732A9770645353D2A46BF557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FA6A6129BF60E78123E4A19BDB5A05 /* SwipeySearch.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeySearch/SwipeySearch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeySearch/SwipeySearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwipeySearch/SwipeySearch.modulemap";
+				PRODUCT_MODULE_NAME = SwipeySearch;
+				PRODUCT_NAME = SwipeySearch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -609,37 +604,6 @@
 			};
 			name = Release;
 		};
-		BBF83499AA4336490AF5CDE3FA2F26DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21F929C1BD2EC1685D2A470CF336519E /* SwipeySearch.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeySearch/SwipeySearch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeySearch/SwipeySearch-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwipeySearch/SwipeySearch.modulemap";
-				PRODUCT_MODULE_NAME = SwipeySearch;
-				PRODUCT_NAME = SwipeySearch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -739,6 +703,37 @@
 			};
 			name = Debug;
 		};
+		EC44B9362100DC49269B517F0A3E52A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0216C3DE4CFCC9CC868D6E9706405610 /* SwipeySearch.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeySearch/SwipeySearch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeySearch/SwipeySearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwipeySearch/SwipeySearch.modulemap";
+				PRODUCT_MODULE_NAME = SwipeySearch;
+				PRODUCT_NAME = SwipeySearch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -760,20 +755,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58098D5EE02F94A7247D2CEE7F7318D6 /* Build configuration list for PBXNativeTarget "SwipeySearch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BBF83499AA4336490AF5CDE3FA2F26DA /* Debug */,
-				2A9EA671609183E023A90C739975D54E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		861B62061601B049066B9757C944F310 /* Build configuration list for PBXNativeTarget "Pods-SwipeySearch_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38F71DA384C6A5B8236912E0A04CEBAF /* Debug */,
 				53B8901B080C215BEB71CA6A24F9D510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF77F1F8141B0E0964897EC72D5DADA /* Build configuration list for PBXNativeTarget "SwipeySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC44B9362100DC49269B517F0A3E52A2 /* Debug */,
+				61F1015E732A9770645353D2A46BF557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

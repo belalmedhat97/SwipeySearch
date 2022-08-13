@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -17,26 +17,26 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sAQ-C1-RRm" customClass="SwipeySearchClass" customModule="SwipeySearch">
-                                <rect key="frame" x="26" y="10" width="323" height="100"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ieb-zb-VmQ" customClass="SwipeySearchView" customModule="SwipeySearch">
+                                <rect key="frame" x="30" y="54" width="368" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="YPa-wi-im5"/>
+                                    <constraint firstAttribute="height" constant="50" id="1g8-be-5Uk"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="sAQ-C1-RRm" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="3gd-gR-tR8"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="sAQ-C1-RRm" secondAttribute="trailing" constant="10" id="kjK-Zz-eD2"/>
-                            <constraint firstItem="sAQ-C1-RRm" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="mQk-pa-hg5"/>
+                            <constraint firstItem="ieb-zb-VmQ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="OkA-a5-Q2w"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ieb-zb-VmQ" secondAttribute="trailing" constant="10" id="UWO-r1-GnU"/>
+                            <constraint firstItem="ieb-zb-VmQ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="f0J-Es-rJh"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="searchBar" destination="sAQ-C1-RRm" id="0kn-a3-80X"/>
+                        <outlet property="searchView" destination="ieb-zb-VmQ" id="03O-gl-5ge"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

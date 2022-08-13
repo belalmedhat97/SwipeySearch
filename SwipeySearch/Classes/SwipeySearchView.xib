@@ -5,11 +5,10 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwipeySearchClass" customModule="SwipeySearch" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SwipeySearchView" customModule="SwipeySearch" customModuleProvider="target">
             <connections>
                 <outlet property="contentView" destination="gao-OL-VOc" id="0qY-0g-eDK"/>
                 <outlet property="searchButton" destination="925-dd-SdT" id="BJp-eN-zYb"/>
@@ -18,23 +17,26 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="gao-OL-VOc">
-            <rect key="frame" x="0.0" y="0.0" width="853" height="218"/>
+            <rect key="frame" x="0.0" y="0.0" width="823" height="60"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="29F-er-ojq">
-                    <rect key="frame" x="5" y="89" width="843" height="50"/>
+                    <rect key="frame" x="5" y="10" width="813" height="50"/>
                     <subviews>
                         <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="925-dd-SdT">
-                            <rect key="frame" x="798" y="5" width="40" height="40"/>
+                            <rect key="frame" x="768" y="5" width="40" height="40"/>
                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="40" id="b1m-gh-ojs"/>
                                 <constraint firstAttribute="height" constant="40" id="g3u-dF-IrW"/>
                             </constraints>
                             <state key="normal" image="magnifyingglass" catalog="system"/>
+                            <connections>
+                                <action selector="searchBtn:" destination="-1" eventType="touchUpInside" id="ABO-gM-yay"/>
+                            </connections>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <gestureRecognizers/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="925-dd-SdT" secondAttribute="trailing" constant="5" id="6bj-we-rkr"/>
@@ -44,23 +46,26 @@
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="J9u-rU-7Ev"/>
-            <color key="backgroundColor" systemColor="tintColor"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <gestureRecognizers/>
             <constraints>
                 <constraint firstItem="29F-er-ojq" firstAttribute="leading" secondItem="J9u-rU-7Ev" secondAttribute="leading" constant="5" id="0Jw-MO-hNI"/>
                 <constraint firstItem="J9u-rU-7Ev" firstAttribute="trailing" secondItem="29F-er-ojq" secondAttribute="trailing" constant="5" id="9e2-fE-lVc"/>
                 <constraint firstItem="29F-er-ojq" firstAttribute="centerY" secondItem="J9u-rU-7Ev" secondAttribute="centerY" id="rac-fL-uQV"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="392.02898550724643" y="-145.3125"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="KWP-8B-IsB" appends="YES" id="hJU-NY-Qe2"/>
+            </connections>
+            <point key="canvasLocation" x="348.55072463768118" y="-172.09821428571428"/>
         </view>
+        <swipeGestureRecognizer direction="right" id="KWP-8B-IsB">
+            <connections>
+                <action selector="swipeGesture:" destination="-1" id="VVZ-jQ-Kjc"/>
+            </connections>
+        </swipeGestureRecognizer>
     </objects>
     <resources>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>

@@ -10,15 +10,27 @@ import UIKit
 import SwipeySearch
 class ViewController: UIViewController {
 
+    @IBOutlet weak var searchView: SwipeySearchView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        searchBar.searchButton.backgroundColor = .red
-//        searchBar.searchButton.defineShape(type: .roundedSquare(corner: 10))
-        searchBar.buttonShape(type: .roundedSquare(corner: 5))
+        
+//        let searchView = SwipeySearchView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 100))
+//        searchView.delegate = self
+//        searchView.backgroundColor = .white
+//        searchView.isButtonCircle = true
+//        searchView.buttonCorner = 10
+//        searchView.buttonIcon = UIImage(named: "icons8-search-24")
+//        searchView.buttonIconColor = .gray
+//        searchView.buttonColor = .black
+//        searchView.fieldPlaceHolderTxt = "Search"
+//        searchView.fieldPlaceHolderColor = .gray
+//        searchView.searchFieldBgColor = .white
+//        searchView.searchFieldFontColor = .black
+//        searchView.shadowColor = .blue
+//        self.view.addSubview(searchView)
+
 
     }
-    @IBOutlet weak var searchBar: SwipeySearchClass!
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -27,3 +39,15 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController:SwipeySearchProtocol{
+    func handleDidPressSearch(textValue: String) {
+        print("text press\(textValue)")
+    }
+    
+    func handleDidChangeText(textValue: String) {
+        print("text change\(textValue)")
+
+    }
+    
+    
+}
