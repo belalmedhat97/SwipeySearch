@@ -1,4 +1,5 @@
 # SwipeySearch
+![Main image](/Images/SwipeySearch.png)
 
 [![CI Status](https://img.shields.io/travis/belalmedhat97/SwipeySearch.svg?style=flat)](https://travis-ci.org/belalmedhat97/SwipeySearch)
 [![Version](https://img.shields.io/cocoapods/v/SwipeySearch.svg?style=flat)](https://cocoapods.org/pods/SwipeySearch)
@@ -20,9 +21,10 @@ it, simply add the following line to your Podfile:
 pod 'SwipeySearch'
 ```
 ## Usage
-
+![Storyboard](/Images/Swipey.gif)
 #### 1 - Storyboard
 you can add your search view using storyboard by adding a UIView then add a custom view to it (SwipeySearchView) with a module (SwipeySearch) and the search view will appear and you can customize it using attributes inspector in the following way 
+![Storyboard](/Images/Storyboard.png)
 
 #### 1 - Code
 you can add your search view using code by creating a  having instance from the (SwipeySearchView) using the following way 
@@ -65,27 +67,31 @@ you can add your search view using code by creating a  having instance from the 
 
 ####  Functionality
 you have to implement the protocol (SwipeySearchProtocol) and make sure your ViewController have delegated to implement the functions 
-```
  
-1 - class ViewController: UIViewController,SwipeySearchProtocol
+1 - implement the SwipeySearchProtocol 
+```
+class ViewController: UIViewController,SwipeySearchProtocol
 
+```
 2 - add the view using connect from a storyboard or using code to can get delegation from it 
-
-	2.1 - @IBOutlet weak var searchView: SwipeySearchView!
-	
-	or 
-
-	2.2 - let searchView = SwipeySearchView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 100))
-
-
-3 - searchView.delegate = self
-
-4 - func handleDidPressSearch(textValue: String) {
+```
+2.1 - @IBOutlet weak var searchView: SwipeySearchView!
+```
+or 
+```
+2.2 - let searchView = SwipeySearchView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 100))
+```
+3 - add delegate to the ViewController 
+```
+searchView.delegate = self
+```
+4 - confirm func for the protocols 
+```
+func handleDidPressSearch(textValue: String) {
         print("text press\(textValue)") 
 	// called when you press the search button 
     }
-    
-    func handleDidChangeText(textValue: String) {
+func handleDidChangeText(textValue: String) {
         print("text change\(textValue)")
 	// called every time you type a character in search field 
     }
