@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwipeySearch'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'SearchView with Swipey animating Search Field and Search button'
 
 # This description is used to generate tags and improve search results.
