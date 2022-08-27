@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
 //        let searchView = SwipeySearchView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 100))
-//        searchView.delegate = self
+        searchView.delegate = self
 //        searchView.backgroundColor = .white
 //        searchView.isButtonCircle = true
 //        searchView.buttonCorner = 10

@@ -40,7 +40,6 @@ public protocol SwipeySearchProtocol{
         super.draw(rect)
         // used when drawing the
         addSearchBar()
-        buttonConfig()
         
 
     }
@@ -48,22 +47,24 @@ public protocol SwipeySearchProtocol{
     public override init(frame: CGRect) {
         super.init(frame: frame)
         initMe()
+        buttonConfig()
+
         
         
     }
     // for storyboard initalization
-
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initMe()
-        
+        buttonConfig()
+
         
     }
     
     
     
     // check type of button and field
-    private var isBtnAndFieldCircle:Bool = false
+    private var isCircleCorner:Bool = true
     //
     
     // define the searchField and it's constraints
@@ -96,7 +97,7 @@ public protocol SwipeySearchProtocol{
 
     
     // MARK: -   search Field + button shadows
-    @IBInspectable  public var shadowOpacity: Float = 0.3 {
+    @IBInspectable  public var shadowOpacity: Float = 0.5 {
         didSet {
             searchButton.layer.shadowOpacity = shadowOpacity
             SearchField.layer.shadowOpacity = shadowOpacity
@@ -127,7 +128,6 @@ public protocol SwipeySearchProtocol{
     //
     
     // MARK: - search button color + icon color
-    
     @IBInspectable public  var buttonColor: UIColor? = .lightGray{
         didSet {
             searchButton.backgroundColor = buttonColor
@@ -149,18 +149,17 @@ public protocol SwipeySearchProtocol{
     @IBInspectable public  var isButtonCircle: Bool = true{
         didSet {
             if isButtonCircle == true {
-                isBtnAndFieldCircle = true
+                isCircleCorner = true
                 searchButtonShape(type: .circle)
-                SearchField.layer.cornerRadius = 20
             }else{
-                isBtnAndFieldCircle = false
+                isCircleCorner = false
                 searchButtonShape(type: .roundedSquare(corner: buttonCorner))
             }
         }
     }
     @IBInspectable public  var buttonCorner: CGFloat = 5 {
         didSet {
-            if !isBtnAndFieldCircle {
+            if !isCircleCorner {
                 searchButtonShape(type: .roundedSquare(corner: buttonCorner))
                 SearchField.layer.cornerRadius = buttonCorner
                 
@@ -265,6 +264,7 @@ extension SwipeySearchView {
         searchButton.layer.shadowOpacity = shadowOpacity
         searchButton.layer.shadowColor = shadowColor?.cgColor
         searchButton.layer.cornerRadius = buttonCorner
+//        searchButton.clipsToBounds = true
     }
     private func openSearch(){
         if searchButton.tag == 0 {
@@ -314,10 +314,10 @@ extension SwipeySearchView {
     }
     // for switch circle or round button
     public func searchButtonShape(type:SearchShape) {
-        searchButton.clipsToBounds = true
         switch type {
         case .circle:
             searchButton.layer.cornerRadius = searchButton.frame.width/2
+            buttonCorner = 20
             break
         case .roundedSquare(let corner):
             searchButton.layer.cornerRadius = corner
