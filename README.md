@@ -21,7 +21,12 @@ pod 'SwipeySearch'
 ## Usage
 ![Storyboard](/Images/Swipey.gif)
 #### 1 - Storyboard
-you can add your search view using storyboard by adding a UIView then add a custom view to it (SwipeySearchView) with a module (SwipeySearch) and the search view will appear and you can customize it using attributes inspector in the following way 
+you can add your search view using storyboard by adding a UIView then add a custom view to it (SwipeySearchView) with a module (SwipeySearch) 
+
+![CustomView](/Images/CustomView.png)
+
+and the search view will appear and you can customize it using attributes inspector in the following way 
+
 ![Storyboard](/Images/Storyboard.png)
 
 #### 1 - Code
